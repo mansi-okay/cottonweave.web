@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:azure;
+    display: flex;
+    padding: 60px 205px 0px 85px;
+    justify-content: space-between;
+}
+
+#left{
+    width: 35vw;
+  /*  background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+#left h1{
+  /*  background-color: bisque; */
+    font-size: 6.5vw;
+    line-height: 7vw;
+    font-weight: 500;
+}
+#left-bottom{
+ /*    background-color: aquamarine; */
+    margin-top: 171px;
+}
+#color{
+    width: 127px;
+    padding: 5px;
+ /*   background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: black solid 2px;
+    border-radius:60px;
+}
+#color h6{
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(141, 63, 63);
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+#left-bottom h2{
+    margin-top: 2vw;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+#left-bottom p{
+    margin-top: .4vw;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+    font-weight: 450;
+    width: 31vw;
+}
+
+#right{
+    margin-top: 50px;
+    width: 27vw;
+ /*   background-color: brown; */
+    position: relative;
+}
+#right h1{
+    position: absolute;
+    left: -48%;
+    bottom: 27%;
+    rotate: -90deg;
+}
+#right-top{
+  /*  background-color: bisque; */
+    height: 2.9vw;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+#right-top h3{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+#right-top h4{
+    font-size: 1vw;
+    padding-top: 6px;
+}
+img{
+    width: 100%;
+    height: 92%;
+    object-fit: cover;
+}
+#circle{
+    background-color: rgb(33, 30, 30);
+    color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 82%;
+    bottom: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+}
+
+
+@media (max-width: 600px) {
+    #main{
+        width: 100%;
+        height: 100%;
+        background-color: azure;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    
+    #left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #left h1{
+        font-size: 20vw;
+        line-height: 18vw;
+        font-weight: 499;
+    }
+    #left-bottom{
+        margin-top: 30px;
+    }
+    #color{
+        width: 100px;
+        padding: 3px;
+        display: flex;
+        justify-content: space-around;
+        border: black solid 1.5px;
+        border-radius:60px;
+    }
+    #color h6{
+        font-size: 4vw;
+        font-weight: 499;
+        margin-right: 16px;
+    }
+    #color1{
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background-color: rgb(141, 63, 63);
+    }
+    #color2{
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #left-bottom h2{
+        margin-top: 2vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    #left-bottom p{
+        margin-top: .8vw;
+        font-size: 3vw;
+        line-height: 3.3vw;
+        font-weight: 400;
+        width: 80vw;
+    }
+    
+    #right{
+        margin-top: 20px;
+        width: 80vw;
+        height: 55vh;
+        position: relative;
+    }
+    #right h1{
+        font-size: 4.8vw;
+        position: absolute;
+        left: 0%;
+        bottom: 3%; 
+        rotate: 0deg;
+    }
+    #right-top{
+        height: 6.3vw;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 15px;
+        padding-bottom: 4px;
+    }
+    #right-top h3{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    #right-top h4{
+        font-size: 3vw;
+        padding-top: 6px;
+    }
+    img{
+        width: 100%;
+        height: 84%;
+        object-fit: cover;
+    }
+    #circle{
+        background-color: rgb(33, 30, 30);
+        color: white;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        left: 83%;
+        bottom: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2vw;
+    }
+}
